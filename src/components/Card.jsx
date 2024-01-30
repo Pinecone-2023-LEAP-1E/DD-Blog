@@ -3,7 +3,10 @@ import React from "react";
 export default function Card(props) {
   return (
     <div className="w-[392px] h-[488px] p-4 bg-white rounded-xl border border-gray-200 flex-col justify-center items-center gap-4 inline-flex">
-      <img src={props.url} className="w-[360px] h-60 rounded-md" />
+      <img
+        src={props.url}
+        className="w-[300px] h-[150px] rounded-md object-cover"
+      />
       <div className="self-stretch h-[200px] p-2 flex-col justify-start items-start gap-5 flex">
         <div className="self-stretch h-32 flex-col justify-start items-start gap-4 flex">
           <div className="px-2.5 py-1 bg-indigo-500 bg-opacity-5 rounded-md justify-center items-center gap-1 inline-flex">
